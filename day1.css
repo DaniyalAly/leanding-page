@@ -1,0 +1,72 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.navbar.navbar-inverse{
+	height:60px;
+	width:100%;
+}
+.nav{
+	text-align: center;
+	float:right;
+	font-size:15px;
+}
+ul.nav.navbar-nav li a:hover{
+	background: #db8a00;
+}
+
+/* ul .drop-menuo li{
+	list-style: none;
+	display: block;
+	text-decoration: none;
+} */
+.hadding1 h1{
+    font-size: 70px;
+    color: orange;
+    margin-top: 200px;
+    font-family: jokerman;
+    animation-direction: alternate;
+    animation-name:hell;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.hadding1 span{
+    font-size: 70px;
+    color: greenyellow;
+    animation-direction: alternate;
+    animation-name:hell;
+    animation-delay: 2s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+#me{
+    background:linear-gradient(to top right,rgb(20, 158, 43) , rgb(206, 21, 21));
+    width: 100%;
+    height: 500px;
+    /* animation-direction: alternate;
+    margin-top: -20px;
+    animation-name:hello;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; */
+
+}
+@keyframes hell{
+    from{
+       font-size: 3px;
+    }
+    to{
+        font-size: 85px;
+    }
+}
+/* @keyframes hello{
+    from{
+        background:black:
+    }
+    to{
+        background:linear-gradient(to top right, yellow, pink);
+    } */
+}
